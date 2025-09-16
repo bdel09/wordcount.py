@@ -1,7 +1,8 @@
 #Name: Benjamin Del Barrio
 #Email: Benjamin.delbarrio31@myhunter.cuny.edu
 
-for i in range(5):                            #The most succint way of going about it
-    Phrase = input(“Enter a Phrase: ")      
-    Words = Phrase.split()                  
-    Print(len(Words))
+for i in range(5):
+    Phrase = input("Enter a Phrase: ")
+    Words = Phrase.split()
+    print(len(Words))
+
